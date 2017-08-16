@@ -1,0 +1,98 @@
+<meta charset="UTF-8">
+
+<meta name="autor" content="Jonatas Araujo da Silva - 1701264"/>
+<meta name="autor" content="Rodrigo Ferreira da Silva - 1700742"/>
+
+<p><strong>1) Da lista de tecnologias abaixo, aponte qual é executada no cliente e qual é executada no servidor </strong></p>
+
+<table border="1">
+	<tr><th>Tecnologia</th><th>Cliente</th><th>Servidor</th></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>JavaScript</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>Tomcat</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>Java</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>HTML</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>PHP</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>MySQL</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>XHTML</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>MongoDB</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>CSS</td><td>X</td><td>&nbsp;</td></tr>
+</table>
+
+<p><strong>2) Aponte as regiões da URL <code>http://www.impacta.com.br/eventos/default.php</code></strong></p>
+
+<p>RESPOSTA:</p>
+Domínio - impacta.com.br </br>
+Path - /eventos/index.php </br>
+Recurso - index.php</br>
+
+<p><strong>3) Quais outros protocolos de comunicação para troca de mensagens via internet existem? Pesquise e cite 3 exemplos, descrevendo sua função e aplicação.</strong></p>
+<ul>
+	<li>
+		<p>
+			<strong>O que é o protocolo SMTP</strong> </br>
+
+O protocolo SMTP (Simple Mail Transfer Protocol - Protocolo Simples de Transferência de E-mail) é o protocolo padrão que permite transferir o 
+e-mail de um servidor para outro, em conexão ponto a ponto. 
+Este é um protocolo que funciona online, encapsulado numa trama TCP/IP. O e-mail é enviado diretamente para o servidor de e-mail do destinatário. 
+O protocolo SMTP funciona com comandos de texto enviados ao 
+servidor SMTP (por padrão, para a porta 25). Cada um dos comandos enviados pelo cliente (validados pela cadeia de caracteres ASCII CR/LF, que
+equivale a um clique na tecla ‘Enter’) é seguido de uma resposta do servidor SMTP composta de um número e de uma mensagem descritiva. 
+		</p>
+	</li>
+	<li>
+		<p>
+			<strong>O que é o protocolo POP3</strong></br>
+
+O protocolo POP (Post Office Protocol - Protocolo dos correios) permite, como seu nome indica, recuperar o seu e-mail num servidor distante 
+(o servidor POP). Ele é necessário para as pessoas não conectadas permanentemente à Internet, para poderem consultar os e-mails recebidos offline. 
+Existem duas versões principais deste protocolo, o POP2 e o POP3, aos quais são atribuídas, respectivamente, as portas 109 e 110, funcionando com 
+o auxílio de comandos de texto completamente diferentes. 
+Assim como no caso do SMTP, o protocolo POP (POP2 e POP3) funciona graças a comandos de textos enviados ao servidor POP. Cada um dos comandos 
+enviados pelo cliente (validado pela suíte CR/LF) é composto por uma palavra-chave, eventualmente acompanhada de um ou vários argumentos e seguida de uma resposta do servidor POP, composta por um número e por uma mensagem descritiva. 
+		</p>
+	</li>
+	<li>
+		<p>
+			<strong>O que é o protocolo IMAP</strong></br>
+O protocolo IMAP (Internet Message Access Protocol - Protocolo de Acesso à Mensagem de Internet) é um protocolo alternativo ao POP3, 
+que oferece mais possibilidades. Entre outras, ele permite gerenciar vários acessos simultâneos, administrar várias caixas de e-mail e 
+organizar as mensagens de acordo com mais critérios.
+		</p>
+		<p>
+		</br>
+		Fonte - http://br.ccm.net/contents/282-os-protocolos-de-servico-de-mensagens-smtp-pop3-e-imap4
+		</p>
+	</li>
+</ul>
+
+<p><strong>4) Explore os sites de hospedagem do  (<a href="http://www.uolhost.uol.com.br/" target="_blank">http://www.uolhost.uol.com.br/</a>) e da LOCAWEB (<a href="https://www.locaweb.com.br" target="_blank">https://www.locaweb.com.br</a>), veja os serviços que eles oferecem. Qual desses serviços (em cada site) seria mais adequado para o seu site de desenvolvedor (páginas estáticas) e para a sua aplicação web?</strong></p>
+</br>
+<strong>Uol Host</strong> - oferece serviços de hospedagens de sites em nuvem, registro e domínio gratuito no primeiro ano, e créditos para serviços
+de divulgação com links patrocinados.
+</br>
+<strong>LocaWeb </strong>- tambpem oferece serviço de hospedagem, porém LocaWeb possui facil integração com ferramentas de SEO
+além de possuir parceria com o Google e no ato da contratação o cliente, receber créditos para divulgaço do website..
+</br></br>
+Em termos de <strong>Web Analytics</strong> "Dependendo do serviço" oferecido pelo site que formos desenvolver, a LocaWeb compensa mais, pelo fato
+de possuir parceria com o Google, uma vez que serviço de vendas, o tendemos a se preocupar mais com a parte comercial.
+</br></br></br>
+Acredito eu "Jonatas", que a escolha sob qual utilizar, vai depender do tipo de negócio em que estamos trabalhando.
+Lembrando que existem outras opçes como:HostNet, HostGator, GoDaddy, 1&1, MediaTample e.t.c
+
+<p>
+</p>
+
+<p><strong>5) Pequisem sobre as limitações do HTTP 1.1 e como o HTTP2 vence essa limitação, cite 2 dessas limitações e suas respostas no HTTP2</strong></p>
+
+<p>RESPOSTA:</p>
+No HTTP 1.1 habilitamos o GZIP para comprimir as informações que mandamos em nossas respostas. Uma boa prática que precisa ser 
+habilitada explicitamente.</br>
+No HTTP 2 GZIP é padrão e obrigatório.</br></br></br>
+No HTTP 1.1 os headers são enviados em plain text, em cada requisição (o famoso User-Agent por exemplo). </br>
+No HTTP 2 os headers são binários e comprimidos, diminuindo o volume de dados. Além disso, é possível reaproveitar os headers
+para as requisições seguintes. Dessa forma, só temos que mandar os cabeçalhos que mudam. Isso reduz as requisições e as deixa menos volumosas.
+</br></br>
+- Fonte </br>
+https://pt.stackoverflow.com/questions/167014/quais-s%C3%A3o-as-diferen%C3%A7as-entre-http-2-e-http-1-1
